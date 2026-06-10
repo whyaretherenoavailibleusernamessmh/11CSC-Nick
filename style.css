@@ -1,0 +1,31 @@
+/* BASIC THEME SET USED BY ALL PAGES */
+
+/* SYNTAX
+.[name] selects all of <[type] class="[name]">
+p.[name] selects all of <p class="[name]"> but does not select <a class="[name]">
+TODO:
+Theme work for main page after i complete it
+
+*/
+body {
+background-color: #fff;
+color: #000
+font-family: sans-serif;
+}
+ul.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ff8c00;
+    display: flex;
+    justify-content: center
+}
+ul.header li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none
+}
+ul.header li a:hover {
+    background-color: #dd3c00
+}
