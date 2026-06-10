@@ -7,6 +7,10 @@ p.[name] selects all of <p class="[name]"> but does not select <a class="[name]"
 */
 body {
 background-color: #fff;
-color: #000;
+color: #000
 font-family: sans-serif;
+}
+.header {
+color: #fff
+background-color: #008cff;
 }
