@@ -14,6 +14,7 @@ color: #000
 font-family: sans-serif;
 }
 ul.header {
+    height: 50px;
     position: fixed;
     top: 0;
     left: 0;
@@ -44,4 +45,10 @@ ul.header li a.valid:hover {
 }
 ul.header li.active {
     background-color: #bb3c00;
+}
+.nameform {
+width: 100%
+padding: 12px;
+margin: 10px 0;
+box-sizing: border-box
 }
