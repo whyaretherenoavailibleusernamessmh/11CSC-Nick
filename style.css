@@ -19,8 +19,16 @@ ul.header {
     padding: 0;
     background-color: #ff8c00;
     display: flex;
-    justify-content: center
+    justify-content: left
 }
+ul.header li {
+    float: left;
+    border-right: 1px solid #fff;
+}
+ul.header li:last-child {
+    border-right: none;
+}
+
 ul.header li a {
     display: block;
     color: white;
