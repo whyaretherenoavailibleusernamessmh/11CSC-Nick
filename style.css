@@ -7,6 +7,7 @@ TODO:
 Theme work for main page after i complete it
 
 */
+
 body {
 background-color: #fff;
 color: #000
@@ -26,6 +27,6 @@ ul.header li a {
     padding: 14px 16px;
     text-decoration: none
 }
-ul.header li a:hover {
+ul.header li a.valid:hover {
     background-color: #dd3c00
 }
