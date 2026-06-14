@@ -12,13 +12,19 @@
     <li><a class="valid" href="why.html">Why to join</a></li>
     <li class="active"><a>Contact Us</a></li>
 </ul>
-<ul style="margin-top: 75px; list-style-type:none;">
-    <li>
-        <input type="text" id="firstname" class="nameform" placeholder="First Name">
-    </li>
-    <li>
-        <input type="text" id="lastname" class="nameform" placeholder="Last Name">
-    </li>
-</ul>
+<div style="margin-top: 75px; width: 35%; height: 50%; background-color: #008cff; border-radius: 10px; padding: 12px">
+    <div class="header">
+Write us a message
+    </div>
+    <form>
+        <input type="text" id="firstname" class="nameform" placeholder="First Name" required="required">
+        <div></div>
+        <input type="text" id="lastname" class="nameform" placeholder="Last Name" required="required">
+        <div></div>
+        <textarea id="message" class="nameform" placeholder="Your Message" rows="25" cols="75" style="resize: none; font-family: sans-serif;" required="required"></textarea>
+        <div></div>
+        <input type="submit" class="nameform" style="font-family: sans-serif;">
+    </form>
+</div>
 </body>
 </html>
