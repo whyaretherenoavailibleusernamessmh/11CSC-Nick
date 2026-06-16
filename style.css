@@ -61,6 +61,7 @@ font-size: 20px;
 
 .contact-flexbox {
 display: flex;
+align-content: space-between;
 }
 .contact-flexbox {
 margin: 10px;
