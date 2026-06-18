@@ -33,14 +33,17 @@ ul.header li {
 ul.header li:last-child {
     border-right: none;
 }
-.searchbar {
+li.searchbar {
+justify-self: right;
+float: right;
+}
+li.searchbar input {
 float: right;
 padding: 6px;
 border: none;
 margin-top: 8px;
 margin-right: 16px;
 font-size: 17px;
-
 }
 ul.header li a {
     display: block;
