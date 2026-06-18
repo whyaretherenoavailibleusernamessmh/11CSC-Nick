@@ -24,7 +24,7 @@ ul.header {
     padding: 0;
     background-color: #ff8c00;
     display: flex;
-    justify-content: left
+ /*   justify-content: left*/
 }
 ul.header li {
     float: left;
