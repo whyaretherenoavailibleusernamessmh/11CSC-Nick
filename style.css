@@ -33,7 +33,15 @@ ul.header li {
 ul.header li:last-child {
     border-right: none;
 }
+.searchbar {
+float: right;
+padding: 6px;
+border: none;
+margin-top: 8px;
+margin-right: 16px;
+font-size: 17px;
 
+}
 ul.header li a {
     display: block;
     color: white;
