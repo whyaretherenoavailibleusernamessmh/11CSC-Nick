@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- HOMEPAGE -->
-<!-- TODO:
-add main page content
+<!--
+
 -->
 <html lang="en">
 <head>
@@ -9,7 +9,7 @@ add main page content
     <title>Homepage</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body style="margin:0px; overflow: hidden">
+<body style="margin:0px; overflow: hidden"> <!-- has to have b***h ahh margin 0px property cuz edge is crap -->
 <div>
     <ul class="header">
         <li class="active"><a>Home</a></li>
@@ -22,7 +22,7 @@ add main page content
     <svg width="50%" height="1000px" xmlns="http://www.w3.org/2000/svg">
         <defs>
             <linearGradient id="gradient1" y1="0%" y2="100%" x1="0%" x2="0%">
-                <stop offset="0%" stop-color="#ffffff" />
+                <stop offset="0%" stop-color="#ffffff" /> <!-- could test putting #008cff into this but idk if thatd work, test later -->
                 <stop offset="100%" stop-color="#000000" />
             </linearGradient>
             <mask id="mask4">
@@ -31,6 +31,9 @@ add main page content
         </defs>
         <rect x="0" y="0" width="100%" height="1000px" fill="#008cff" mask="url(#mask4)" />
     </svg>
+<!-- FIXME: should overlap instead of going into the hidden overflow -->
+    <div>Header Text</div>
+    <div>Body Text <p>Body Text</div>
 </div>
 </body>
 </html>
