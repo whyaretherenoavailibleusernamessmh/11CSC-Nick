@@ -79,6 +79,8 @@ justify-content: space-between;
 margin: 10px;
 padding: 10px
 }
+
+
 /* Index Specific Styles */
 .index-maincontainer {
 display: flex;
@@ -92,4 +94,11 @@ margin-top: 6%;
 color: white;
 font-size: 20px;
 width: 44%
+}
+
+/* why.html specific styles */
+.why-heading {
+font-size: 40px;
+color: #008cff;
+padding-top: 60px;
 }
