@@ -81,8 +81,14 @@ padding: 10px
 /* Index Specific Styles */
 .index-maincontainer {
 display: flex;
-flex-direction: column;
+/*flex-direction: column;*/
 padding-top: 50px;
+.index-text {
+margin-left: -47.5%;
+margin-top: 6%;
+color: white;
+font-size: 20px
+}
 /* FIXME
 background-image: url('data:image/svg+xml,<svg width="50%" height="1000px" xmlns="http://www.w3.org/2000/svg">
         <defs>
