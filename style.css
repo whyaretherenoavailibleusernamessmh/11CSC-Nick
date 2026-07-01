@@ -83,26 +83,11 @@ padding: 10px
 display: flex;
 /*flex-direction: column;*/
 padding-top: 50px;
+
 .index-text {
 margin-left: -47.5%;
 margin-top: 6%;
 color: white;
-font-size: 20px
-}
-/* FIXME
-background-image: url('data:image/svg+xml,<svg width="50%" height="1000px" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-            <linearGradient id="gradient1" y1="0%" y2="100%" x1="0%" x2="0%">
-                <stop offset="0%" stop-color="#ffffff" />
-                <stop offset="100%" stop-color="#000000" />
-            </linearGradient>
-            <mask id="mask4">
-                <rect x="0" y="0" width="100%" height="1000px" fill="url(#gradient1)" />
-            </mask>
-        </defs>
-        <rect x="0" y="0" width="100%" height="1000px" fill="#008cff" mask="url(#mask4)" id="test" />
-
-    </svg>' 0 / auto 100%;
-*/
-
+font-size: 20px;
+width: 44%
 }
