@@ -24,7 +24,7 @@ ul.header {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #ff8c00;
+    background-color: #00bc00;
     display: flex;
  /*   justify-content: left*/
 }
@@ -54,13 +54,14 @@ ul.header li a {
     text-decoration: none
 }
 ul.header li a.valid:hover {
-    background-color: #dd3c00
+    background-color: #008c00
 }
 ul.header li.active {
-    background-color: #bb3c00;
+    background-color: #003c00;
 }
 .nameform {
-width: 100%
+opacity: 90%;
+width: 100%;
 padding: 12px;
 margin: 10px 0;
 box-sizing: border-box;
@@ -83,6 +84,7 @@ padding: 10px
 display: flex;
 /*flex-direction: column;*/
 padding-top: 50px;
+}
 
 .index-text {
 margin-left: -47.5%;
