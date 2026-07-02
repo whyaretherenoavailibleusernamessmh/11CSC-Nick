@@ -104,7 +104,7 @@ width: 44%
 /* why.html specific styles */
 .why-heading {
 font-size: 40px;
-color: #008cff;
+color: #ff8c00;
 padding-top: 60px;
 }
 /*
@@ -170,5 +170,4 @@ flex-direction: row;
 justify-content: space-evenly;
 }
 .events-horizontal-flexbox div {
-
 }
