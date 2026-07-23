@@ -3,13 +3,12 @@
 /* SYNTAX
 .[name] selects all of <[type] class="[name]">
 p.[name] selects all of <p class="[name]"> but does not select <a class="[name]">
-TODO:
-Move most style info into here
-Make theme around #008c00, #008cff, with white text
-Make sure that backgrounds (where added) do not eat my styles
+TODO: MAKE ADAPTIVE LAYOUTS FOR ALL PAGES
 
 */
-
+html, body {
+height: 100%
+}
 body {
 background-color: #003c00;
 color: #000;
@@ -91,6 +90,7 @@ padding: 10px
 display: flex;
 /*flex-direction: column;*/
 padding-top: 50px;
+height: 100%
 }
 
 .index-text {

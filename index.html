@@ -9,7 +9,7 @@
     <title>Homepage</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body style="margin:0px; overflow: hidden; background-image: url('Images/forest_with_trash.jpg'); background-size: cover; background-attachment: fixed;"> <!-- has to have b***h ahh margin 0px property cuz edge is crap and has ROUNDED CORNERS >:( -->
+<body style="margin:0px; overflow: hidden; background-image: url('Images/forest_with_trash.jpg'); background-size: cover; background-attachment: fixed; height:100%;"> <!-- has to have b***h ahh margin 0px property cuz edge is crap and has ROUNDED CORNERS >:( -->
 <div>
     <ul class="header"> <!-- Nav Bar -->
         <li class="active"><a>Home</a></li>
@@ -19,7 +19,7 @@
     </ul>
 </div>
 <div class="index-maincontainer"> <!-- Background Gradient on L/H Side -->
-    <svg width="50%" height="1100px" xmlns="http://www.w3.org/2000/svg">
+    <svg width="50%" height="100%" xmlns="http://www.w3.org/2000/svg" style="border-radius: 8px">
         <defs>
             <linearGradient id="gradient1" y1="0%" y2="100%" x1="0%" x2="0%">
                 <stop offset="0%" stop-color="#ffffff" /> <!-- could test putting #008cff into this but idk if thatd work, test later -->
@@ -30,7 +30,7 @@
             </mask>
         </defs>
         <rect x="0" y="0" width="100%" height="1100px" fill="#008cff" mask="url(#mask4)" id="test" />
-        <text fill="#ffffff" font-size="50" x="5%" y="10%">This is an atrocity.</text>
+        <text fill="#ffffff" font-size="50" x="5%" y="10%">This is an atrocity.</text> <!-- TODO/FIXME: MOVE THIS INTO THE PARAGRAPH TEXT AS IT BREAKS LAYOUT ON MOBILE -->
         <text fill="#ffffff" font-size="25" x="2.5%" y="15%" textLength="47.5%">
         </text>
 
