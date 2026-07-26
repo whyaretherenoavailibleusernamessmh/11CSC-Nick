@@ -6,6 +6,7 @@ p.[name] selects all of <p class="[name]"> but does not select <a class="[name]"
 TODO: MAKE ADAPTIVE LAYOUTS FOR ALL PAGES
 
 */
+
 html, body {
 height: 100%
 }
