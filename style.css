@@ -104,10 +104,10 @@ width: 44%;
 font-size: 50px;
 color: white;
 text-shadow:
-    -1px -1px 0 #003c00,
-    1px -1px 0 #003c00,
-    -1px 1px 0 #003c00,
-    1px 1px 0 #003c00;
+    -2px -2px 0 #008c00,
+    2px -2px 0 #008c00,
+    -2px 2px 0 #008c00,
+    2px 2px 0 #008c00;
 }
 /* FIXME: TEXT BREAKS WHEN GIVEN NON 16:9 DEVICE */
 .index-text {
@@ -122,6 +122,7 @@ color: #ff8c00;
 padding-top: 60px;
 }
 /*
+UNUSED STYLES
 .why-imagecontainer-flexbox {
 display: flex;
 justify-content: flex-end;
