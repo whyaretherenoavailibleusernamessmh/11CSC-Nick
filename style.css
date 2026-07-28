@@ -9,6 +9,7 @@ TODO: MAKE ADAPTIVE LAYOUTS FOR ALL PAGES
 
 html, body {
 height: 100%
+width: 100%
 }
 body {
 background-color: #003c00;
@@ -190,9 +191,13 @@ padding: 20px;
 font-size: 30px;
 display: flex;
 flex-direction: row;
-justify-content: space-evenly;
+justify-content: space-between;
 border: 4px solid #003c00;
 border-radius: 8px;
 }
-.events-horizontal-flexbox div {
+div.why-broken {
+min-width: 40%;
+max-width: 48%
+/* Needs min and max width to allow for site to properly re-size when on mobile devices */
+min-height: 75%;
 }
