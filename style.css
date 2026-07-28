@@ -8,8 +8,8 @@ TODO: MAKE ADAPTIVE LAYOUTS FOR ALL PAGES
 */
 
 html, body {
-height: 100%
-width: 100%
+height: 100%;
+width: 100%;
 }
 body {
 background-color: #003c00;
@@ -194,10 +194,12 @@ flex-direction: row;
 justify-content: space-between;
 border: 4px solid #003c00;
 border-radius: 8px;
+align-content: center;
+flex-wrap: wrap;
 }
 div.why-broken {
 min-width: 40%;
-max-width: 48%
+max-width: 48%;
 /* Needs min and max width to allow for site to properly re-size when on mobile devices */
-min-height: 75%;
+min-height: 100%;
 }
