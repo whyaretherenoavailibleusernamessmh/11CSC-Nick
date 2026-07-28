@@ -109,7 +109,7 @@ text-shadow:
     -2px 2px 0 #008c00,
     2px 2px 0 #008c00;
 }
-/* FIXME: TEXT BREAKS WHEN GIVEN NON 16:9 DEVICE */
+
 .index-text {
 color: white;
 font-size: 20px;
@@ -120,6 +120,11 @@ font-size: 20px;
 font-size: 40px;
 color: #ff8c00;
 padding-top: 60px;
+text-shadow:
+    -2px -2px 0 black,
+    2px -2px 0 black,
+    -2px 2px 0 black,
+    2px 2px 0 black;
 }
 /*
 UNUSED STYLES
