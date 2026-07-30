@@ -200,9 +200,20 @@ border-radius: 8px;
 align-content: center;
 flex-wrap: wrap;
 }
-div.why-broken {
-min-width: 40%;
-max-width: 48%;
-/* Needs min and max width to allow for site to properly re-size when on mobile devices */
-min-height: 100%;
+@media screen and (min-width: 1100px) {
+    div.why-broken {
+    min-width: 40%;
+    max-width: 48%;
+    min-height: 100%;
+    }
+}
+@media screen and (max-width: 1100px) {
+    div.why-broken {
+    min-width: 100%;
+    min-height: 100%;
+    }
+    div.why-broken iframe {
+    min-width: 50%;
+    min-height: 50%;
+    }
 }
