@@ -18,6 +18,7 @@ ul.header {
     padding: 0;
     background-color: #00bc00;
     display: flex;
+    z-index: 999;
  /*   justify-content: left*/
 }
 ul.header li {
@@ -69,12 +70,62 @@ font-family: sans-serif;
 .header {
 font-size: 20px;
 }
+/* Contact specific styles */
+@media screen and (min-width: 1100px) {
+    .contact-flexbox {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    flex-direction: row;
+    }
+    div.wtfiswrongwithyou {
+    margin-top: 75px;
+    width: 30%;
+    height: auto;
+    background-color: #b4b4b4;
+    border-radius: 10px;
+    padding: 12px;
+    margin-left: 100px;
+    padding-right: 12px;
+    }
+    .media-icons {
+    width: 40%; height: 85%; background-color: #a0a0a0; margin: 5%; border-radius: 10px; justify-self: right;
+    }
+    .contact-form-holder {
+    margin-top: 75px; height: auto; width: 50%; background-color: #008cff; border-radius: 10px; padding: 12px; display: flex; flex-direction: column; flex-wrap: wrap;
+    }
+}
 
-.contact-flexbox {
-display: flex;
-justify-content: space-between;
-margin: 10px;
-padding: 10px
+@media screen and (max-width: 1100px) {
+    .contact-flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 90%;
+    align-items: flex-end;
+
+
+    }
+    div.wtfiswrongwithyou {
+    margin-top: 75px;
+    width: 90%;
+    height: 50%;
+    background-color: #b4b4b4;
+    border-radius: 10px;
+    padding: 12px;
+    /*
+    margin-left: 100px;
+    padding-right: 12px;
+    }
+    */
+    }
+    .media-icons {
+    width: 90%; height: 85%; background-color: #a0a0a0; margin: 5%; border-radius: 10px; justify-self: right;
+    }
+    .contact-form-holder {
+    margin-top: 75px; height: auto; width: 90%; background-color: #008cff; border-radius: 10px; padding: 12px; display: flex; flex-direction: column; flex-wrap: wrap;
+    }
 }
 
 
